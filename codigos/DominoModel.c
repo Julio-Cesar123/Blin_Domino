@@ -53,6 +53,23 @@ void InicializacaoPeca(tipo_peca domino[]) {
 
 }
 
+void embaralhar(tipo_peca domino[], int  array_tamanho) {
+    srand(time(NULL));
+    int r, troca;
+
+    for(int i= array_tamanho-1; i>=0; i--){
+        r=rand() % array_tamanho;
+        troca=domino[i].p1;
+        domino[i].p1=domino[r].p1;
+        domino[r].p1=troca;
+        troca=domino[i].p2;
+        domino[i].p2=domino[r].p2;
+        domino[r].p2=troca;
+    }
+
+
+}
+
 void desembaralhar(tipo_peca domino[]) {
 
     int i;
