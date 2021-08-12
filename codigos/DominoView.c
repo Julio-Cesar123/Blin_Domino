@@ -31,5 +31,5 @@ void LimparInterface(){ //limpa o sistema
     printf("\n\n................Pressione <ENTER> to continue...................");
     while( (op = fgetc(stdin)) != EOF && op != '\n') {}
     getchar( );
-    system("clear");//("cls") para Windows
+    system("cls");//("clear") para Linux
 }
