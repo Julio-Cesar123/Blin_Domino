@@ -111,7 +111,7 @@ void salvarArquivo(tipo_jogo domino[], tipo_peca jogador1[], tipo_peca jogador2[
 ```
   
   
-- Por fim, o módulo "Controller", que faz o intermédio entre os demais módulos, veja abaixo um trecho de exemplo, a declaração das variáveis:
+- Por fim, o módulo "Controller", que faz o intermédio entre os demais módulos, veja abaixo um trecho de exemplo, onde temos a declaração das variáveis:
 ```C
 void controller() {
 
@@ -119,8 +119,6 @@ void controller() {
     tipo_jogo domino[1];
     tipo_mesa tabuleiro[1];
     
-    
-
     tipo_peca monte[14];
     tipo_peca jogador1[21];
     tipo_peca jogador2[21];
@@ -130,8 +128,6 @@ void controller() {
 
     bool veri= true;
     int opcao, tamanho = 28;
-    /*int jogador1[28][2], jogador2[28][2], monte[28][2];
-    int mesa[20][50];*/
 
     tabuleiro[0].ext_dir = 2;
     tabuleiro[0].ext_esq = 2;
