@@ -1,5 +1,5 @@
 # Blin_Domino
-Projeto de um jogo de dominó, criado no 2º Semestre de Ciência da Computação da PUC SP
+Projeto de um jogo de dominó, criado no 2º Semestre de **Ciência da Computação da PUC SP**
 
 Nome e RA dos integrantes:
 
