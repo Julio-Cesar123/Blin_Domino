@@ -31,7 +31,9 @@ fechada. Os jogadores contarão os pontos das pedras que ficaram; o jogador ou d
   - Controller;
   
   
-- O módulo "Model" possui  as funções relacionadas com a lógica do jogo, veja abaixo um trecho de exemplo, uma função qe embaralha as 28 peças do domino:
+- O módulo "Model" possui  as funções relacionadas com a lógica do jogo (inicialização de peças, jogadas, etc.), veja abaixo um trecho de exemplo, uma função qe embaralha as 28 
+peças do domino:
+
 ```C
 void embaralhar(tipo_peca dominoAux[], int array_tamanho)
 {
@@ -52,7 +54,9 @@ void embaralhar(tipo_peca dominoAux[], int array_tamanho)
 ```
   
   
-- O módulo "View" possui as funções relacionadas com a interação com o usuário, veja abaixo um trecho de exemplo, a função que exibe o menu principal:
+- O módulo "View" possui as funções relacionadas com a interação com o usuário (exibição de menus, textos, etc.), veja abaixo um trecho de exemplo, a função que exibe o menu 
+principal:
+
 ```C
 void menu()
 { 
@@ -104,4 +108,32 @@ void salvarArquivo(tipo_jogo domino[], tipo_peca jogador1[], tipo_peca jogador2[
                    
     fclose(DominoS);
 }
+```
+  
+  
+- Por fim, o módulo "Controller", que faz o intermédio entre os demais módulos, veja abaixo um trecho de exemplo, a declaração das variáveis:
+```C
+void controller() {
+
+    //declaração das variáveis
+    tipo_jogo domino[1];
+    tipo_mesa tabuleiro[1];
+    
+    
+
+    tipo_peca monte[14];
+    tipo_peca jogador1[21];
+    tipo_peca jogador2[21];
+    tipo_peca computador[21];
+    tipo_peca dominoAux[28];
+    tipo_peca bot[21];
+
+    bool veri= true;
+    int opcao, tamanho = 28;
+    /*int jogador1[28][2], jogador2[28][2], monte[28][2];
+    int mesa[20][50];*/
+
+    tabuleiro[0].ext_dir = 2;
+    tabuleiro[0].ext_esq = 2;
+...}
 ```
