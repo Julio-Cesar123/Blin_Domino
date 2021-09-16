@@ -23,13 +23,13 @@ adversários. Jogando em dupla, somam-se os pontos de todos os jogadores incluin
   - Existem casos onde nenhum dos jogadores pode continuar a partida. Isto ocorre quando o número das extremidades saiu 7 vezes antes. Nesse momento se diz que a partida está 
 fechada. Os jogadores contarão os pontos das pedras que ficaram; o jogador ou dupla com menos pontos vencem e somam-se os pontos da maneira habitual.
 
-O projeto foi dividido em 4 módulos:
+- O projeto foi dividido em 4 módulos:
   - Model;
   - View;
   - Data;
   - Controller;
 
-O módulo "Model" é onde estão localizadas as funções relacionadas com a lógica do jogo, veja abaixo um trecho de exemplo, uma função qe embaralha as 28 peças do domino:
+- O módulo "Model" é onde estão localizadas as funções relacionadas com a lógica do jogo, veja abaixo um trecho de exemplo, uma função qe embaralha as 28 peças do domino:
 ```C
 void embaralhar(tipo_peca dominoAux[], int array_tamanho)
 {
