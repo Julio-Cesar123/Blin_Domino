@@ -16,7 +16,8 @@ que leva a vantagem durante a partida.Cada jogador, no seu turno, deve colocar u
 coincidamcom os pontos da extremidade onde está  sendo  colocada.  As  dobradas  são  colocadas  de  maneira  transversal  para  facilitar  sua localização. Quando o jogador
 coloca sua peça sobre a mesa, seu turno se acaba e passa-se ao seguinte jogador.Se um jogador não puder jogar, deverá “comprar” do monte tantas peças como forem necessárias. Se
 não houver peças no monte, passará o turno ao seguinte jogador.A partida continua com os jogadores colocando suas peças sobre a mesa até que se apresente alguma das seguintes
-situações:  <br />    
+situações:
+
   - Quando um jogador coloca sua última pedra na mesa, essa ação é chamada de bater. Quando joga-se sozinho, o jogador que ganhou a partida soma os pontos de todos os seus 
 adversários. Jogando em dupla, somam-se os pontos de todos os jogadores incluindo os do seu companheiro.
   - Existem casos onde nenhum dos jogadores pode continuar a partida. Isto ocorre quando o número das extremidades saiu 7 vezes antes. Nesse momento se diz que a partida está 
