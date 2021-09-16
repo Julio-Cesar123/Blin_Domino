@@ -77,4 +77,31 @@ void menu()
 }
 ```
   
-- O módulo "View" possui as funções relacionadas com a interação com o usuário, veja abaixo um trecho de exemplo, a função que exibe o menu principal:
+- O módulo "Data" possui as funções ao salvamento e carregamento do jogo, veja abaixo um trecho de exemplo, a função que realiza o salvamento:
+```C
+void salvarArquivo(tipo_jogo domino[], tipo_peca jogador1[], tipo_peca jogador2[], tipo_mesa tabuleiro[], tipo_peca monte[]){     
+    FILE *DominoS;
+
+    //seleciona um arquivo para abrir
+    //wb cria um arquivo binário para escrita, como no modo "w" anterior, só que o arquivo é binário.
+    DominoS = fopen("DominoS", "wb");
+    //se nao conseguir abrir, irá retornar como NULL
+    if (DominoS == NULL) {
+        printf("\nArquivo Domino nao pode ser aberto.");
+        printf("\nOcorreu um Erro Grave! Use alguma tecla para finalizar!");
+        exit(1);
+    }
+    
+        fwrite(jogador1, 1, sizeof(tipo_peca), DominoS);
+               
+        fwrite(jogador2, 1, sizeof(tipo_peca), DominoS);
+            
+        fwrite(monte, 1, sizeof(tipo_peca), DominoS);
+            
+        fwrite(tabuleiro[0].mapa, 1, sizeof(tipo_mesa), DominoS);
+            
+        fwrite(&domino[0], 1, sizeof(tipo_jogo), DominoS);
+                   
+    fclose(DominoS);
+}
+```
