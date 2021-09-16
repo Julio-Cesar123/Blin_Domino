@@ -21,4 +21,30 @@ situações:
   - Quando um jogador coloca sua última pedra na mesa, essa ação é chamada de bater. Quando joga-se sozinho, o jogador que ganhou a partida soma os pontos de todos os seus 
 adversários. Jogando em dupla, somam-se os pontos de todos os jogadores incluindo os do seu companheiro.
   - Existem casos onde nenhum dos jogadores pode continuar a partida. Isto ocorre quando o número das extremidades saiu 7 vezes antes. Nesse momento se diz que a partida está 
-fechada. Os jogadores contarão os pontos das pedras que ficaram; o jogador ou dupla com menos pontos vencem e somam-se os pontos da maneira habitual
+fechada. Os jogadores contarão os pontos das pedras que ficaram; o jogador ou dupla com menos pontos vencem e somam-se os pontos da maneira habitual.
+
+O projeto foi dividido em 4 módulos:
+  - Model;
+  - View;
+  - Data;
+  - Controller;
+
+O módulo "Model" é onde estão localizadas as funções relacionadas com a lógica do jogo, veja abaixo um trecho de exemplo, uma função qe embaralha as 28 peças do domino:
+```C
+void embaralhar(tipo_peca dominoAux[], int array_tamanho)
+{
+    srand(time(NULL)); //randomiza as peças
+    int r, troca;
+
+    for (int i = array_tamanho - 1; i >0; i--)
+    {
+        r = rand() % array_tamanho;
+        troca = dominoAux[i].p1;
+        dominoAux[i].p1 = dominoAux[r].p1;
+        dominoAux[r].p1 = troca;
+        troca = dominoAux[i].p2;
+        dominoAux[i].p2 = dominoAux[r].p2;
+        dominoAux[r].p2 = troca;
+    }
+}
+```
