@@ -138,20 +138,20 @@ void controller() {
   ![Screenshot_Menu_Principal](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Menu_Principal.png)  
   Esta tela mostra o menu principal do jogo;
   
-  ![Screenshot_Escolha_Jogo.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Escolha_Jogo.png)
+  ![Screenshot_Escolha_Jogo.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Escolha_Jogo.png)  
   Esta tela mostra a escolha de jogar contra o "computador";
   
-  ![Screenshot_Menu_Jogo.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Menu_Jogo.png)  
+  ![Screenshot_Menu_Jogo.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Menu_Jogo.png)    
   Esta tela mostra o menu exibido durante jogo;  
   
   
-  ![Screenshot_Ver_Pecas.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Ver_Pecas.png)
+  ![Screenshot_Ver_Pecas.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Ver_Pecas.png)  
   Esta é a opção de "ver peças";
   
   
-  ![Screenshot_Mesa_Pecas.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Mesa_Pecas.png)
+  ![Screenshot_Mesa_Pecas.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Mesa_Pecas.png)  
   Esta tela mostra a mesa e a mão do jogador 2;
   
   
-  ![Screenshot_VItoria_Jog2.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_VItoria_Jog2.png)
+  ![Screenshot_VItoria_Jog2.png](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_VItoria_Jog2.png)  
   Esta tela mostra a exibição da vítoria do jogador 2;
