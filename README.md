@@ -133,3 +133,7 @@ void controller() {
     tabuleiro[0].ext_esq = 2;
 ...}
 ```
+
+- Segue abaixo uma sequência de telas da exibição do jogo:
+  [!Screenshot_Menu_Principal](images/Screenshot_Menu_Principal.png)
+  Format: ![Alt Text](url)
