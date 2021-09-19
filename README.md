@@ -135,5 +135,4 @@ void controller() {
 ```
 
 - Segue abaixo uma sequência de telas da exibição do jogo:
-  [!Screenshot_Menu_Principal](images/Screenshot_Menu_Principal.png)
-  Format: ![Alt Text](url)
+  ![Screenshot_Menu_Principal](https://github.com/Julio-Cesar123/Blin_Domino/blob/main/images/Screenshot_Menu_Principal.png)
